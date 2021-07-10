@@ -96,3 +96,4 @@ if __name__ == '__main__':
 	source_has_repeat(tables)
 	dest_has_repeat(tables)
 	copy_and_rename(source_file_dir, dest_file_dir, tables)
+	print("文件重命名已成功!")

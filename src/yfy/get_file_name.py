@@ -50,3 +50,4 @@ if __name__ == '__main__':
             table.append(fileName)
         tables = [table]
         ExcelHelper.save(save_excel_file, tables, FileName)
+        print("导出文件名已保存至excel,路径={0}".format(save_excel_file))
